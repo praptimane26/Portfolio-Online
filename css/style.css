@@ -47,7 +47,11 @@ header nav {
 }
 
 header nav .branding{
-    margin-right: 3rem;
+    margin-right: 10rem;
+}
+
+header .container .branding img{
+    height: 175px;
 }
 
 .hero{
@@ -164,7 +168,7 @@ section.about .social a:hover{
 .section-heading + p{
     color: var(--ternary);
     font-family: 'Lato', sans-serif;
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
     text-align: center;
 }
 
@@ -185,15 +189,16 @@ section.services .card-wrapper{
 
 section.services .card-wrapper .card{
     background: var(--pure);
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
     position: relative;
-    padding-top: 6rem;
+    padding-top: 5rem;
     text-align: center;
+    transition: all .3s ease;
 }
 
 section.services .card-wrapper .card img{
     position: absolute;
-    top: -3.5rem;
+    top: -2.5rem;
     left: 50%;
     transform: translateX(-50%);
     height: 70px;
@@ -208,4 +213,14 @@ section.services .card-wrapper .card h2{
 section.services .card-wrapper .card p{
     font-family: 'Lato' sans-serif;
     color: var(--ternary);
+    line-height: 1.6;
+}
+
+section.services .card-wrapper .card:hover{
+    background: var(--primary);
+}
+
+
+section.services .card-wrapper .card:hover h2,section.services .card-wrapper .card:hover p{
+    color: var(--pure);
 }
