@@ -12,10 +12,31 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
+  <div class="site-main-wrapper">
+      <button class="hamburger">
+          <img src="./images/square.png" alt="">
+      </button>
+
+      <div class="mobile-nav">
+          <button class="times">
+              <img src="./images/close.png" alt="">
+          </button>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">My Work</a></li>
+          </ul>
+          <button class="btn btn-primary">
+            Contact
+        </button>
+      </div>
+
     <header>
         <div class="container">
-        <nav class="flex items-center justify-between">
+        <nav id="main-nav" class="flex items-center justify-between">
             <div class="left flex items-center">
                 <div class="branding">
                     <img class="logo" src="./images/kayla jolly logo (2).png" alt="">
@@ -250,8 +271,7 @@
                 Website made by Prapti Mane @2021
             </div>
         </footer>
-
-
+  </div>
 
 
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
