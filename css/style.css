@@ -35,6 +35,23 @@ header {
     margin: 0 auto;
 }
 
+
+@media (min-width: 576px)
+{
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+@media (min-width: 768px)
+{
+    .container {
+        max-width: 720px;
+    }
+}
+
+
 header nav .left a{
     color: var(--pure);
     text-decoration: none;
