@@ -25,7 +25,7 @@ html{
 
 header {
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
   
 }
 
@@ -264,8 +264,8 @@ section.bookanappointment{
     text-align: center;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/greg-trowman-jsuWg7IXx1k-unsplash\ \(1\).jpg);
     color: var(--pure);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
-    padding-bottom: 15rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    padding-bottom: 8rem;
 }
 
 
@@ -513,6 +513,7 @@ footer .copyright{
     transition: all .5s ease-in-out;
 }
 
+
 .open{
     transform: translateX(0);
 }
@@ -539,7 +540,7 @@ footer .copyright{
 .mobile-nav ul li a{
     color: var(--secondary);
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     padding: 35%;
 }
@@ -566,7 +567,7 @@ footer .copyright{
     }
 
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 27% 89%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
     }
 
     section.about .about-me-img{
@@ -588,7 +589,7 @@ footer .copyright{
     }
 
     header{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
     }
 
     .hero .right {
@@ -628,7 +629,7 @@ footer .copyright{
     }
 
     section.bookanappointment{
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
         padding-bottom: 8rem;
     }
 
